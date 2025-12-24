@@ -7,6 +7,7 @@ Prodavači postavljaju proizvode, cijene, lokaciju mobilnog štanda, radno vrije
 ## Trenutni status
 - Inicijalni Flutter projekt s rutama za: splash, auth, vendor dashboard, consumer home, checkout. Pogledaj [lib/main.dart](lib/main.dart).
 - Dodani osnovni paketi: Riverpod, go_router, Dio, Freezed/JSON codegen, Google Maps, geolokacija, Stripe, Hive, shared_preferences, intl, logger.
+- Dodani Freezed modeli i JSON konverzije za korisnike, prodavače, proizvode i narudžbe, te mock servis za razvoj bez backenda (vidi [lib/src/models](lib/src/models) i [lib/src/data/mock_api.dart](lib/src/data/mock_api.dart)).
 
 ## Zahtjevi i alati
 - Flutter 3.35 (Dart 3.9)
